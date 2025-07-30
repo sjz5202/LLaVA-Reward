@@ -1,0 +1,31 @@
+# phi ft gpm
+# set --lora_rank 0 \ --lora_alpha 0 \ --lora_dropout 0 \ same for other settings
+deepspeed train_llava_reward.py \
+     --save_path /scr/shijie/hf/rewardmodel/test/phi_test_gpm_ft \
+     --save_steps 1 \
+     --logging_steps 1 \
+     --eval_steps 1000 \
+     --accumulated_gradient 4 \
+     --micro_train_batch_size 8 \
+     --pretrain microsoft/Phi-3.5-vision-instruct \
+     --bf16 \
+     --max_epochs 1 \
+     --max_len 2048 \
+     --zero_stage 2 \
+     --learning_rate 5e-7 \
+     --general_preference_tau 0.1 \
+     --dataset data/ImageReward/train_data/imagereward_fidelity_rating_train_jpg.json \
+     --dataset_probs 1 \
+     --flash_attn \
+     --gradient_checkpointing \
+     --cache_dir /scr/shijie/hf/base \
+     --group_size 1 \
+     --value_head_dim 2 \
+     --save_best_model 2 \
+     --is_general_preference \
+     --train_split_ratio 1 \
+     --freeze_vision_model \
+     --lora_rank 0 \
+     --lora_alpha 0 \
+     --lora_dropout 0 \
+     --add_cross_attention

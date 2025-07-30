@@ -1,0 +1,46 @@
+[
+    {
+        "prompt_id": "000904-0035",
+        "prompt": [
+            "perfect white haired egyptian goddess wearing white dove wings, warframe armor, regal, attractive, ornate, sultry, beautiful, ice queen, half asian, pretty face, blue eyes, detailed, scifi platform, 4 k, ultra realistic, epic lighting, illuminated, cinematic, masterpiece, art by akihito tsukushi, voidstar ",
+            "perfect white haired egyptian goddess wearing white dove wings, warframe armor, regal, attractive, ornate, sultry, beautiful, ice queen, half asian, pretty face, blue eyes, detailed, scifi platform, 4 k, ultra realistic, epic lighting, illuminated, cinematic, masterpiece, art by akihito tsukushi, voidstar "
+        ],
+        "chosen_path": "data/sample_test/sample_img/0_1_id_000904-0035.jpg",
+        "c_rate": 7,
+        "reject_path": "data/sample_test/sample_img/4_3_id_000904-0035.jpg",
+        "r_rate": 6
+    },
+    {
+        "prompt_id": "000904-0035",
+        "prompt": [
+            "perfect white haired egyptian goddess wearing white dove wings, warframe armor, regal, attractive, ornate, sultry, beautiful, ice queen, half asian, pretty face, blue eyes, detailed, scifi platform, 4 k, ultra realistic, epic lighting, illuminated, cinematic, masterpiece, art by akihito tsukushi, voidstar ",
+            "perfect white haired egyptian goddess wearing white dove wings, warframe armor, regal, attractive, ornate, sultry, beautiful, ice queen, half asian, pretty face, blue eyes, detailed, scifi platform, 4 k, ultra realistic, epic lighting, illuminated, cinematic, masterpiece, art by akihito tsukushi, voidstar "
+        ],
+        "chosen_path": "data/sample_test/sample_img/0_1_id_000904-0035.jpg",
+        "c_rate": 7,
+        "reject_path": "data/sample_test/sample_img/5_4_id_000904-0035.jpg",
+        "r_rate": 6
+    },
+    {
+        "prompt_id": "000904-0035",
+        "prompt": [
+            "perfect white haired egyptian goddess wearing white dove wings, warframe armor, regal, attractive, ornate, sultry, beautiful, ice queen, half asian, pretty face, blue eyes, detailed, scifi platform, 4 k, ultra realistic, epic lighting, illuminated, cinematic, masterpiece, art by akihito tsukushi, voidstar ",
+            "perfect white haired egyptian goddess wearing white dove wings, warframe armor, regal, attractive, ornate, sultry, beautiful, ice queen, half asian, pretty face, blue eyes, detailed, scifi platform, 4 k, ultra realistic, epic lighting, illuminated, cinematic, masterpiece, art by akihito tsukushi, voidstar "
+        ],
+        "chosen_path": "data/sample_test/sample_img/0_1_id_000904-0035.jpg",
+        "c_rate": 7,
+        "reject_path": "data/sample_test/sample_img/6_4_id_000904-0035.jpg",
+        "r_rate": 4
+    },
+    {
+        "prompt_id": "000904-0035",
+        "prompt": [
+            "perfect white haired egyptian goddess wearing white dove wings, warframe armor, regal, attractive, ornate, sultry, beautiful, ice queen, half asian, pretty face, blue eyes, detailed, scifi platform, 4 k, ultra realistic, epic lighting, illuminated, cinematic, masterpiece, art by akihito tsukushi, voidstar ",
+            "perfect white haired egyptian goddess wearing white dove wings, warframe armor, regal, attractive, ornate, sultry, beautiful, ice queen, half asian, pretty face, blue eyes, detailed, scifi platform, 4 k, ultra realistic, epic lighting, illuminated, cinematic, masterpiece, art by akihito tsukushi, voidstar "
+        ],
+        "chosen_path": "data/sample_test/sample_img/1_2_id_000904-0035.jpg",
+        "c_rate": 7,
+        "reject_path": "data/sample_test/sample_img/4_3_id_000904-0035.jpg",
+        "r_rate": 6
+    }
+]

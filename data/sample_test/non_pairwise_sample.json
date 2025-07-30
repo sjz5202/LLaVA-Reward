@@ -1,0 +1,22 @@
+[
+    {
+        "path": "data/sample_test/sample_img/0_c.jpg",
+        "label": 1,
+        "prompt": "A curious cat exploring a haunted mansion"
+    },
+    {
+        "path": "data/sample_test/sample_img/0_r.jpg",
+        "label": 1,
+        "prompt": "A curious cat exploring a haunted mansion"
+    },
+    {
+        "path": "data/sample_test/sample_img/1_c.jpg",
+        "label": 1,
+        "prompt": "A close-up photograph of a fat orange cat with lasagna in its mouth. Shot on Leica M6."
+    },
+    {
+        "path": "data/sample_test/sample_img/1_r.jpg",
+        "label": 1,
+        "prompt": "A close-up photograph of a fat orange cat with lasagna in its mouth. Shot on Leica M6."
+    }
+]
