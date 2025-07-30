@@ -336,7 +336,7 @@ class GeneralPreferenceRewardTrainer(ABC):
                 global_step += 1
             tag = f"epoch_{epoch}"
             if args.lora_rank>0:
-                self.strategy.save_model_lora(self.model, self.tokenizer,self.add_cross_attention, os.path.join(args.save_path, tag))  
+                self.strategy.save_model_lora(self.model, self.tokenizer,self.add_cross_attention, os.path.join(args.save_path, tag),reward_config=reward_config)  
             else:
                 self.strategy.save_model(self.model, self.tokenizer, os.path.join(args.save_path, tag))
             epoch_bar.update()
