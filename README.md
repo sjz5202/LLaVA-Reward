@@ -1,5 +1,11 @@
 # LLaVA-Reward
-Multimodal LLMs as Customized Reward Models for Text-to-Image Generation (ICCV 2025) ([arXiv](https://arxiv.org/abs/2507.21391))
+Multimodal LLMs as Customized Reward Models for Text-to-Image Generation (ICCV 2025)
+
+<h4>
+<a href="https://arxiv.org/abs/2507.21391">📄 arXiv Paper</a> &nbsp; 
+<a href="https://huggingface.co/microsoft/GUI-Actor-7B-Qwen2-VL">🤗 Models</a> &nbsp;
+</h4>
+
 ### Model Architecture Overview
 ![Model Architecture](figures/model_figure.png)
 ## Installation 
